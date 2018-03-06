@@ -19,6 +19,7 @@ Webpack é uma ferramenta de construção que coloca todos os seus ativos ("asse
     html:
 -->
 ---
+## Vanilla
 ```html
 <!-- index.html -->
 <html>
@@ -41,6 +42,7 @@ $(document).ready(function () {
 ```
 ---
 <!-- Com a chegada das ferramentas de build como o grunt e o gulp, passou-se a ser criado um bundle -->
+## Grunt / Gulp
 ```html
 <!-- index.html -->
 <html>
@@ -62,7 +64,7 @@ var scripts = [
 ].concat().uglify().writeTo('bundle.js');
 ```
 ---
-
+## Browserify
 ```js
 // main.js
 'use strict';
@@ -84,6 +86,7 @@ Mas se o Browserify já resolve este problema, poquê precisamos do Webpack?
 O Webpack dá um passo a mais, ele permite que você faça "require" em ativos estáticos, como arquivos de imagem e CSS, não só em arquivos JavaScript como o Browserify:
 -->
 ---
+## Webpack
 ```js
 import _ from 'lodash';
 import './style.css';
