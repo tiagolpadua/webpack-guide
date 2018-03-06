@@ -2,7 +2,7 @@
 
 ## URL para visualização
 
-[https://github.com/tiagolpadua/webpack-guide/master](https://github.com/tiagolpadua/webpack-guide/master)
+[https://gitpitch.com/tiagolpadua/webpack-guide/master](https://gitpitch.com/tiagolpadua/webpack-guide/master)
 
 - TIAGO LAGE PAYNE DE PÁDUA
 
